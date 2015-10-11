@@ -1,0 +1,72 @@
+********************************************************************************
+*                                                                              *
+*   //    //  ////// ////////  /////    //////  //////   //   //     //////    *
+*   ///   //  //        //     //  //   //      //   //  //   //   //          *
+*   ////  //  //        //     //   //  //      //   //  //   //  //           *
+*   // // //  //////    //     //   //  //////  //////   //   //  //   /////   *
+*   //  ////  //        //     //   //  //      //   //  //   //  //     //    *
+*   //   ///  //        //     //  //   //      //   //  /// ///   //    //    *
+*   //    //  //////    //     /////    //////  /////      ///      //////     *
+*                                                                              *
+********************************************************************************
+
+The NetDebug application has been optimised for iPhone 4/4s/5/5s/6, iPhone 6 Plus and iPad series are not supported.
+
+The application folder contains the following:
+
+  README (this document)
+
+  NetDebug.xcodeproj (Xcode project file)
+
+  docs/ (Code documentation directory - open docs/help/html/index.html)
+    screenshots\ of\ final\ product/ (UI screenshots)
+    uml/ (diagrams)
+
+  NetDebug/ (Xcode project directory)
+
+  NetDebugTests/ (Xcode project unit tests - not used)
+
+  resources/
+    icons/ (application icons, etc)
+    
+
+The GUI is written in a standard way, but the data model is customised and uses CoreFoundation, BSD Sockets, CFSockets, etc. For a better understanding of the code, please read in the following order:
+
+1) From the online documentation (open docs/help/html/index.html)
+   a. PingAlgorithm (the overview contains some necessary theory and a pseudocode)
+   b. DataModel (the ping and trace operations pseudocode)
+
+2) Read .m files of PingAlgorithm and DataModel (the code makes use of BSD Sockets and CFSockets, which are not documented in depth by Apple)
+
+3) Read the rest of the code.
+
+
+Instructions for using the application:
+
+  Perform a ping operation
+    1) Set a network target, i.e. www.google.com or 127.0.0.1.
+    2) Set preferred packet size (must be between 8 and 64760 and a power of 2).
+    3) Set preferred number of packets to be used.
+    4) Press the start button (in case there is no response there is a timeout of at least 15s, which grows depending on the number of packets).
+    5) If the operation succeeds, then press the save button to save it.
+    6) Go to the archive tab and tap on the operation to see it.
+    
+  Perform a trace operation
+    1) Set a network target, i.e. www.google.com or 127.0.0.1.
+    2) Set preferred packet size (must be between 8 and 64760 and a power of 2).
+    3) Set preferred number of packets to be used.
+    4) Press the start button and wait (it takes considerable time to finish).
+    5) If the operation succeeds, then press the save button to save it.
+    6) Go to the archive tab and tap on the operation to see it.
+    
+  Archive
+    - The operations are grouped according to their type and inside the group
+      are sorted according to their creation date. 
+    - The archived operations can be deleted by sliding on them from right to
+      left.
+  
+  NOTE: If the application is running on the iOS Simulator, please deactivate the firewall, in order for the application to be able to properly access the network. 
+  
+
+
+

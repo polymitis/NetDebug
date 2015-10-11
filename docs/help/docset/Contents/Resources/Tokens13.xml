@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/PingAlgorithmDelegateProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/PingAlgorithmDelegateProtocol</TokenIdentifier>
+			<Abstract type="html">Ping algorithm delegate protocol</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/PingAlgorithm</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PingAlgorithmDelegateProtocol/pingPerformedWithTarget:identifier:numberOfPackets:maxNumberOfHops:packetSizeInBytes:</TokenIdentifier>
+			<Abstract type="html">Informs about the successful transmission of ICMP Echo packages.</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+			
+			<Declaration>- (void)pingPerformedWithTarget:(NSString *)target identifier:(int)identifier numberOfPackets:(int)npackets maxNumberOfHops:(int)hops packetSizeInBytes:(int)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The IP address of the target network location.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The ping operation identifier.</Abstract>
+				</Parameter><Parameter>
+					<Name>npackets</Name>
+					<Abstract type="html">The number of ICMP Echo packets to be send.</Abstract>
+				</Parameter><Parameter>
+					<Name>hops</Name>
+					<Abstract type="html">The maximum number of times, a packet can be forwarded by an intermediate network location (value of the IP TTL field).</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">The size of ICMP Echo packet.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/pingPerformedWithTarget:identifier:numberOfPackets:maxNumberOfHops:packetSizeInBytes:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PingAlgorithmDelegateProtocol/icmpPacketReceivedWithData:identifier:sequenceNumber:roundTripTime:type:from:</TokenIdentifier>
+			<Abstract type="html">Informs about the reception of an ICMP packet.</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/PingAlgorithmICMPType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)icmpPacketReceivedWithData:(NSData *)packet identifier:(int)identifier sequenceNumber:(int)seqnum roundTripTime:(NSTimeInterval)dt type:(PingAlgorithmICMPType)type from:(NSString *)src</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>packet</Name>
+					<Abstract type="html">The IP address of the target network location.</Abstract>
+				</Parameter><Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The ping operation identifier.</Abstract>
+				</Parameter><Parameter>
+					<Name>seqnum</Name>
+					<Abstract type="html">The packet sequence number.</Abstract>
+				</Parameter><Parameter>
+					<Name>dt</Name>
+					<Abstract type="html">The packet round-trip time.</Abstract>
+				</Parameter><Parameter>
+					<Name>type</Name>
+					<Abstract type="html">The type of packet.</Abstract>
+				</Parameter><Parameter>
+					<Name>src</Name>
+					<Abstract type="html">The IP address of packet source (it can be equal to target).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/icmpPacketReceivedWithData:identifier:sequenceNumber:roundTripTime:type:from:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/PingAlgorithmDelegateProtocol/pingDidFailWithError:</TokenIdentifier>
+			<Abstract type="html">Informs about the error, that caused the Ping operation to fail.</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+			
+			<Declaration>- (void)pingDidFailWithError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/pingDidFailWithError:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

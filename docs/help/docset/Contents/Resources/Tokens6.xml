@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PingOperation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PingOperation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/setTarget:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/target</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingOperation/target</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/setPacketSizeInBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *packetSizeInBytes</Declaration>
+			
+			
+			<Anchor>//api/name/packetSizeInBytes</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/packetSizeInBytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *packetSizeInBytes</Declaration>
+			
+			
+			<Anchor>//api/name/packetSizeInBytes</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingOperation/packetSizeInBytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *packetSizeInBytes</Declaration>
+			
+			
+			<Anchor>//api/name/packetSizeInBytes</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/setNumberOfPackets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *numberOfPackets</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfPackets</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/numberOfPackets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *numberOfPackets</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfPackets</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingOperation/numberOfPackets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *numberOfPackets</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfPackets</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/setNumberOfHops:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *numberOfHops</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfHops</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/numberOfHops</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *numberOfHops</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfHops</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingOperation/numberOfHops</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *numberOfHops</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfHops</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/setDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingOperation/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/setTargetLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) id targetLocation</Declaration>
+			
+			
+			<Anchor>//api/name/targetLocation</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/targetLocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) id targetLocation</Declaration>
+			
+			
+			<Anchor>//api/name/targetLocation</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingOperation/targetLocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) id targetLocation</Declaration>
+			
+			
+			<Anchor>//api/name/targetLocation</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/setIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingOperation/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/setSaved:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *saved</Declaration>
+			
+			
+			<Anchor>//api/name/saved</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/saved</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *saved</Declaration>
+			
+			
+			<Anchor>//api/name/saved</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingOperation/saved</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *saved</Declaration>
+			
+			
+			<Anchor>//api/name/saved</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/setStandalone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *standalone</Declaration>
+			
+			
+			<Anchor>//api/name/standalone</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/standalone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *standalone</Declaration>
+			
+			
+			<Anchor>//api/name/standalone</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingOperation/standalone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *standalone</Declaration>
+			
+			
+			<Anchor>//api/name/standalone</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/setResponses:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSSet *responses</Declaration>
+			
+			
+			<Anchor>//api/name/responses</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/responses</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSSet *responses</Declaration>
+			
+			
+			<Anchor>//api/name/responses</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingOperation/responses</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSSet *responses</Declaration>
+			
+			
+			<Anchor>//api/name/responses</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/setTrace:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) TraceOperation *trace</Declaration>
+			
+			
+			<Anchor>//api/name/trace</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/trace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) TraceOperation *trace</Declaration>
+			
+			
+			<Anchor>//api/name/trace</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingOperation/trace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) TraceOperation *trace</Declaration>
+			
+			
+			<Anchor>//api/name/trace</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/addResponsesObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>- (void)addResponsesObject:(PingResponse *)value</Declaration>
+			
+			
+			<Anchor>//api/name/addResponsesObject:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/removeResponsesObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>- (void)removeResponsesObject:(PingResponse *)value</Declaration>
+			
+			
+			<Anchor>//api/name/removeResponsesObject:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/addResponses:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>- (void)addResponses:(NSSet *)values</Declaration>
+			
+			
+			<Anchor>//api/name/addResponses:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingOperation/removeResponses:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingOperation.h</DeclaredIn>
+			
+			<Declaration>- (void)removeResponses:(NSSet *)values</Declaration>
+			
+			
+			<Anchor>//api/name/removeResponses:</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TraceInfoViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TraceInfoViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceInfoViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceInfoViewController/setDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceInfoViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceInfoViewController/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceInfoViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TraceInfoViewController/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceInfoViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14B25" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PingOperation" representedClassName="PingOperation" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="identifier" attributeType="Integer 32" minValueString="0" maxValueString="65535" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="numberOfHops" optional="YES" attributeType="Integer 32" minValueString="1" maxValueString="255" defaultValueString="64" syncable="YES"/>
+        <attribute name="numberOfPackets" optional="YES" attributeType="Integer 32" minValueString="1" maxValueString="255" defaultValueString="1" syncable="YES"/>
+        <attribute name="packetSizeInBytes" optional="YES" attributeType="Integer 32" minValueString="8" maxValueString="65515" defaultValueString="64" syncable="YES"/>
+        <attribute name="saved" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="standalone" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="target" optional="YES" attributeType="String" defaultValueString="127.0.0.1" syncable="YES"/>
+        <relationship name="responses" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PingResponse" inverseName="ping" inverseEntity="PingResponse" syncable="YES"/>
+        <relationship name="trace" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="TraceOperation" inverseName="pings" inverseEntity="TraceOperation" syncable="YES"/>
+    </entity>
+    <entity name="PingResponse" representedClassName="PingResponse" syncable="YES">
+        <attribute name="no" attributeType="Integer 32" minValueString="0" maxValueString="255" defaultValueString="0.0" indexed="YES" syncable="YES"/>
+        <attribute name="roundTripTime" optional="YES" attributeType="Float" minValueString="0" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="sourceAddress" optional="YES" attributeType="String" defaultValueString="127.0.0.1" syncable="YES"/>
+        <relationship name="ping" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PingOperation" inverseName="responses" inverseEntity="PingOperation" syncable="YES"/>
+    </entity>
+    <entity name="TraceOperation" representedClassName="TraceOperation" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="numberOfPackets" optional="YES" attributeType="Integer 32" minValueString="1" maxValueString="255" defaultValueString="1" syncable="YES"/>
+        <attribute name="packetSizeInBytes" optional="YES" attributeType="Integer 32" minValueString="8" maxValueString="65515" defaultValueString="64" syncable="YES"/>
+        <attribute name="saved" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="target" optional="YES" attributeType="String" defaultValueString="127.0.0.1" syncable="YES"/>
+        <relationship name="pings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PingOperation" inverseName="trace" inverseEntity="PingOperation" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PingOperation" positionX="-5474" positionY="-8586" width="128" height="193"/>
+        <element name="PingResponse" positionX="-5258" positionY="-8586" width="128" height="103"/>
+        <element name="TraceOperation" positionX="-5256" positionY="-8442" width="128" height="133"/>
+    </elements>
+</model>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PingAlgorithm.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PingAlgorithm</TokenIdentifier>
+			<Abstract type="html">Ping algorithm</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingAlgorithm/performWithTarget:numberOfPackets:maxNumberOfHops:packetSizeInBytes:maxNumberOfTries:</TokenIdentifier>
+			<Abstract type="html">Initiates the ping algorithm operation.</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+			
+			<Declaration>- (void)performWithTarget:(NSString *)target numberOfPackets:(int)npackets maxNumberOfHops:(int)hops packetSizeInBytes:(int)size maxNumberOfTries:(int)maxTries</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The IP address of the target network location.</Abstract>
+				</Parameter><Parameter>
+					<Name>npackets</Name>
+					<Abstract type="html">The number of ICMP Echo packets to be send.</Abstract>
+				</Parameter><Parameter>
+					<Name>hops</Name>
+					<Abstract type="html">The maximum number of times, a packet can be forwarded by an intermediate network location (value of the IP TTL field).</Abstract>
+				</Parameter><Parameter>
+					<Name>size</Name>
+					<Abstract type="html">The size of ICMP Echo packet.</Abstract>
+				</Parameter><Parameter>
+					<Name>maxTries</Name>
+					<Abstract type="html">The maximum number of tries to transmit a packet.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/performWithTarget:numberOfPackets:maxNumberOfHops:packetSizeInBytes:maxNumberOfTries:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingAlgorithm/stop</TokenIdentifier>
+			<Abstract type="html">Stops the ping algorithm operation.</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingAlgorithm/setTimeout:</TokenIdentifier>
+			<Abstract type="html">The time allowed for the ping algorithm to complete.</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float timeout</Declaration>
+			
+			
+			<Anchor>//api/name/timeout</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingAlgorithm/timeout</TokenIdentifier>
+			<Abstract type="html">The time allowed for the ping algorithm to complete.</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float timeout</Declaration>
+			
+			
+			<Anchor>//api/name/timeout</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingAlgorithm/timeout</TokenIdentifier>
+			<Abstract type="html">The time allowed for the ping algorithm to complete.</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float timeout</Declaration>
+			
+			
+			<Anchor>//api/name/timeout</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingAlgorithm/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The object that acts as the delegate of the receiving ping algorithm</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) id&lt;PingAlgorithmDelegateProtocol&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingAlgorithm/delegate</TokenIdentifier>
+			<Abstract type="html">The object that acts as the delegate of the receiving ping algorithm</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) id&lt;PingAlgorithmDelegateProtocol&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingAlgorithm/delegate</TokenIdentifier>
+			<Abstract type="html">The object that acts as the delegate of the receiving ping algorithm</Abstract>
+			<DeclaredIn>PingAlgorithm.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) id&lt;PingAlgorithmDelegateProtocol&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

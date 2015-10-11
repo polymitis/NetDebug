@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TraceOperation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TraceOperation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/setPacketSizeInBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *packetSizeInBytes</Declaration>
+			
+			
+			<Anchor>//api/name/packetSizeInBytes</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/packetSizeInBytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *packetSizeInBytes</Declaration>
+			
+			
+			<Anchor>//api/name/packetSizeInBytes</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TraceOperation/packetSizeInBytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *packetSizeInBytes</Declaration>
+			
+			
+			<Anchor>//api/name/packetSizeInBytes</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/setNumberOfPackets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *numberOfPackets</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfPackets</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/numberOfPackets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *numberOfPackets</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfPackets</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TraceOperation/numberOfPackets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *numberOfPackets</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfPackets</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/setDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TraceOperation/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/setTarget:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/target</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TraceOperation/target</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/setSaved:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *saved</Declaration>
+			
+			
+			<Anchor>//api/name/saved</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/saved</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *saved</Declaration>
+			
+			
+			<Anchor>//api/name/saved</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TraceOperation/saved</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *saved</Declaration>
+			
+			
+			<Anchor>//api/name/saved</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/setPings:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSSet *pings</Declaration>
+			
+			
+			<Anchor>//api/name/pings</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/pings</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSSet *pings</Declaration>
+			
+			
+			<Anchor>//api/name/pings</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TraceOperation/pings</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSSet *pings</Declaration>
+			
+			
+			<Anchor>//api/name/pings</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/addPingsObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>- (void)addPingsObject:(PingOperation *)value</Declaration>
+			
+			
+			<Anchor>//api/name/addPingsObject:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/removePingsObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>- (void)removePingsObject:(PingOperation *)value</Declaration>
+			
+			
+			<Anchor>//api/name/removePingsObject:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/addPings:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>- (void)addPings:(NSSet *)values</Declaration>
+			
+			
+			<Anchor>//api/name/addPings:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TraceOperation/removePings:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TraceOperation.h</DeclaredIn>
+			
+			<Declaration>- (void)removePings:(NSSet *)values</Declaration>
+			
+			
+			<Anchor>//api/name/removePings:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

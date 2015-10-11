@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/DataModelDelegateProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/DataModelDelegateProtocol</TokenIdentifier>
+			<Abstract type="html">Data model delegate protocol</Abstract>
+			<DeclaredIn>DataModel.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/DataModel</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DataModelDelegateProtocol/dataModelOperation:didSucceedWithContext:</TokenIdentifier>
+			<Abstract type="html">Informs the data model delegate about the successful completion of an operation.</Abstract>
+			<DeclaredIn>DataModel.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/DataModelOperationType</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)dataModelOperation:(DataModelOperationType)type didSucceedWithContext:(NSManagedObjectContext *)context</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>type</Name>
+					<Abstract type="html">The type of the operation.</Abstract>
+				</Parameter><Parameter>
+					<Name>context</Name>
+					<Abstract type="html">The current CoreData model context.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/dataModelOperation:didSucceedWithContext:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/DataModelDelegateProtocol/dataModelOperation:didFailWithError:</TokenIdentifier>
+			<Abstract type="html">Informs the data model delegate about the error that caused an operation to fail.</Abstract>
+			<DeclaredIn>DataModel.h</DeclaredIn>
+			
+			<Declaration>- (void)dataModelOperation:(DataModelOperationType)type didFailWithError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">The error.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/dataModelOperation:didFailWithError:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

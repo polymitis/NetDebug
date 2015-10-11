@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/DataModelOperationType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/DataModelOperationType</TokenIdentifier>
+			<Abstract type="html">Data model operation type</Abstract>
+			<DeclaredIn>DataModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DataModelOperationTypeUnknown</TokenIdentifier>
+            <Abstract type="html">Unknown type of operation.</Abstract>
+            <Declaration>DataModelOperationTypeUnknown</Declaration>
+            
+            <DeclaredIn>DataModel.h</DeclaredIn>
+            
+            <NodeRef refid="14"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DataModelOperationTypeDNSLookup</TokenIdentifier>
+            <Abstract type="html">DNS lookup</Abstract>
+            <Declaration>DataModelOperationTypeDNSLookup</Declaration>
+            
+            <DeclaredIn>DataModel.h</DeclaredIn>
+            
+            <NodeRef refid="14"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DataModelOperationTypeReverseDNSLookup</TokenIdentifier>
+            <Abstract type="html">Reverse DNS lookup</Abstract>
+            <Declaration>DataModelOperationTypeReverseDNSLookup</Declaration>
+            
+            <DeclaredIn>DataModel.h</DeclaredIn>
+            
+            <NodeRef refid="14"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DataModelOperationTypePing</TokenIdentifier>
+            <Abstract type="html">Ping operation</Abstract>
+            <Declaration>DataModelOperationTypePing</Declaration>
+            
+            <DeclaredIn>DataModel.h</DeclaredIn>
+            
+            <NodeRef refid="14"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/DataModelOperationTypeTrace</TokenIdentifier>
+            <Abstract type="html">Trace operation</Abstract>
+            <Declaration>DataModelOperationTypeTrace</Declaration>
+            
+            <DeclaredIn>DataModel.h</DeclaredIn>
+            
+            <NodeRef refid="14"/>
+        </Token>
+        
+	</File>
+</Tokens>

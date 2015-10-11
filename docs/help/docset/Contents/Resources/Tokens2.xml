@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ArchiveViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ArchiveViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ArchiveViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

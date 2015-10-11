@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PingInfoViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PingInfoViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingInfoViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingInfoViewController/setDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingInfoViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PingInfoViewController/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingInfoViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PingInfoViewController/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PingInfoViewController.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSDate *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

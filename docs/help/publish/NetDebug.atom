@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:docset="http://developer.apple.com/rss/docset_extensions" xml:lang="en">
+    <id>NetDebug.atom/20141212033824</id>
+    <title type="text">NetDebug Documentation</title>
+    <rights>Copyright © 2014 Petros Fountas. All rights reserved.</rights>
+    <link rel="self" href="NetDebug.atom"></link>
+    <docset:publisherName>Petros Fountas</docset:publisherName>
+    <docset:publisherID>com.gmail.petros.fountas.documentation</docset:publisherID>
+    <updated>2014-12-12T03:38:24+00:00</updated>
+    <entry>
+        <id>tag:(null),2014-12-12:com.gmail.petros.fountas.NetDebug/1.0.0</id>
+        <title type="text">NetDebug Documentation</title>
+        <updated>2014-12-12T03:38:24+00:00</updated>
+        <content type="text">NetDebug Documentation (v1.0.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="com.gmail.petros.fountas.NetDebug-1.0.xar" length="219186"></link>
+        <docset:identifier>com.gmail.petros.fountas.NetDebug</docset:identifier>
+        <docset:version>1.0.0</docset:version>
+        <docset:minimumXcodeVersion>3.0.0</docset:minimumXcodeVersion>
+    </entry>
+</feed>
