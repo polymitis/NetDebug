@@ -430,7 +430,7 @@ numberOfPacketsControlViewOriginalTransform;
         dy = 2000;
         
     } else if (screenHeight == 568) {
-        NSLog(@"iPhone 5/5s detected");
+        NSLog(@"iPhone 5/5s/SE detected");
         dx = 1100;
         dy = 2500;
         

@@ -56,68 +56,22 @@ updateTableAfterDataUpdate;
 
 - (NSArray *)pingOperations
 {
-    if (!_pingOperations) {
-        // fetch all saved ping operations not part of a trace operation
-        NSFetchRequest *request =
-        [NSFetchRequest fetchRequestWithEntityName:@"PingOperation"];
-        request.predicate =
-        [NSPredicate predicateWithFormat:@"saved == 1 && standalone == 1"];
-        NSError *error;
-        NSArray *results =
-        [self.dataModel.context executeFetchRequest:request error:&error];
-        
-        if (error) {
-            NSLog(@"Fetch of Ping Operations failed with error: %@", error);
-            
-        } else if (![results count]) {
-            NSLog(@"Ping operations not found");
-            
-        } else {
-            NSLog(@"Ping operations found");
-            NSSortDescriptor *sortDescriptor =
-            [NSSortDescriptor sortDescriptorWithKey:@"date"
-                                          ascending:YES
-                                           selector:@selector(compare:)];
-            NSArray *sortDescriptors =
-            [[NSArray alloc] initWithObjects:sortDescriptor, nil];
-            
-            _pingOperations =
-            [[results sortedArrayUsingDescriptors:sortDescriptors] copy];
-        }
-    }
-    return _pingOperations;
+    return self.dataModel.pingOperations;
+}
+
+- (void)setPingOperations:(NSArray *)pingOperations
+{
+    self.dataModel.pingOperations = pingOperations;
 }
 
 - (NSArray *)traceOperations
 {
-    if (!_traceOperations) {
-        // fetch all saved trace operations
-        NSFetchRequest *request =
-        [NSFetchRequest fetchRequestWithEntityName:@"TraceOperation"];
-        request.predicate =
-        [NSPredicate predicateWithFormat:@"saved == 1"];
-        NSError *error;
-        NSArray *results =
-        [self.dataModel.context executeFetchRequest:request error:&error];
-        
-        if (error) {
-            NSLog(@"Fetch of Trace Operations failed with error: %@", error);
-        } else if (![results count]) {
-            NSLog(@"Trace operations not found");
-        } else {
-            NSLog(@"Trace operations found");
-            NSSortDescriptor *sortDescriptor =
-            [NSSortDescriptor sortDescriptorWithKey:@"date"
-                                          ascending:YES
-                                           selector:@selector(compare:)];
-            NSArray *sortDescriptors =
-            [[NSArray alloc] initWithObjects:sortDescriptor, nil];
-            
-            _traceOperations =
-            [[results sortedArrayUsingDescriptors:sortDescriptors] copy];
-        }
-    }
-    return _traceOperations;
+    return self.dataModel.traceOperations;
+}
+
+- (void)setTraceOperations:(NSArray *)traceOperations
+{
+    self.dataModel.pingOperations = traceOperations;
 }
 
 // upaded the table data after forcing the data model to reload

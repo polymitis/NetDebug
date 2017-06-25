@@ -134,6 +134,69 @@
     return YES; // match found
 }
 
+- (NSArray *)pingOperations
+{
+    _pingOperations = nil;
+    // fetch all saved ping operations not part of a trace operation
+    NSFetchRequest *request =
+    [NSFetchRequest fetchRequestWithEntityName:@"PingOperation"];
+    request.predicate =
+    [NSPredicate predicateWithFormat:@"saved == 1 && standalone == 1"];
+    NSError *error;
+    NSArray *results =
+    [self.context executeFetchRequest:request error:&error];
+    
+    if (error) {
+        NSLog(@"Fetch of Ping Operations failed with error: %@", error);
+        
+    } else if (![results count]) {
+        NSLog(@"Ping operations not found");
+        
+    } else {
+        NSLog(@"Ping operations found");
+        NSSortDescriptor *sortDescriptor =
+        [NSSortDescriptor sortDescriptorWithKey:@"date"
+                                      ascending:YES
+                                       selector:@selector(compare:)];
+        NSArray *sortDescriptors =
+        [[NSArray alloc] initWithObjects:sortDescriptor, nil];
+        
+        _pingOperations =
+        [[results sortedArrayUsingDescriptors:sortDescriptors] copy];
+    }
+    return _pingOperations;
+}
+
+- (NSArray *)traceOperations
+{
+    _traceOperations = nil;
+    // fetch all saved trace operations
+    NSFetchRequest *request =
+    [NSFetchRequest fetchRequestWithEntityName:@"TraceOperation"];
+    request.predicate =
+    [NSPredicate predicateWithFormat:@"saved == 1"];
+    NSError *error;
+    NSArray *results =
+    [self.context executeFetchRequest:request error:&error];
+    
+    if (error) {
+        NSLog(@"Fetch of Trace Operations failed with error: %@", error);
+    } else if (![results count]) {
+        NSLog(@"Trace operations not found");
+    } else {
+        NSLog(@"Trace operations found");
+        NSSortDescriptor *sortDescriptor =
+        [NSSortDescriptor sortDescriptorWithKey:@"date"
+                                      ascending:YES
+                                       selector:@selector(compare:)];
+        NSArray *sortDescriptors =
+        [[NSArray alloc] initWithObjects:sortDescriptor, nil];
+        
+        _traceOperations =
+        [[results sortedArrayUsingDescriptors:sortDescriptors] copy];
+    }
+    return _traceOperations;
+}
 
 - (void)stop
 {
@@ -171,7 +234,6 @@
      object:self];
     
     NSLog(@"DataModelUpdated notification dispatched");
-    
     
     return YES;
 }
@@ -215,14 +277,13 @@
           "((2[0-5][0-5])|(2[0-4][0-9])|(1[0-9][0-9])|([0-9]?[0-9]))$"])
         return NO;
     
-    if (![self.currentPingOperation.saved boolValue]) {
-        [self cleanupCurrentOperation]; // cleanup from previous operation
+    if (![self.currentPingOperation.saved boolValue] && ![self.currentTraceOperation.saved boolValue]) {
+        [self cleanupCurrentPingOperation]; // cleanup from previous operation
     }
     
     // perform ping operation
     self.delegate = delegate;
     self.pingAlgoritm.timeout = 30*log10(10*(npackets/3));
-    self.currentTraceOperation = nil;
     self.currentOperation = DataModelOperationTypePing;
     [self.pingAlgoritm performWithTarget:target
                          numberOfPackets:npackets
@@ -275,7 +336,7 @@
     
     // cleanup previous operation
     if (![self.currentTraceOperation.saved boolValue]) {
-        [self cleanupCurrentOperation]; // cleanup from previous operation
+        [self cleanupCurrentTraceOperation]; // cleanup from previous operation
     }
     
     // create & save trace operation
@@ -484,8 +545,8 @@ void reverseDNSLookupCallback(CFHostRef theHost,
     operation.packetSizeInBytes = [NSNumber numberWithInt:size];
     operation.date = [NSDate date];
     operation.standalone =
-    [NSNumber numberWithBool:(!self.currentTraceOperation)? YES : NO];
-    operation.trace = self.currentTraceOperation;
+    [NSNumber numberWithBool:(self.currentOperation == DataModelOperationTypePing)? YES : NO];
+    operation.trace = (self.currentOperation == DataModelOperationTypeTrace)? self.currentTraceOperation : nil;
     
     self.currentPingOperation = operation;
     
@@ -566,13 +627,24 @@ void reverseDNSLookupCallback(CFHostRef theHost,
 
 - (void)cleanupCurrentOperation
 {
-    NSLog(@"Cleaning up current operation");
+    [self cleanupCurrentPingOperation];
+    [self cleanupCurrentTraceOperation];
+}
+
+- (void)cleanupCurrentPingOperation
+{
+    NSLog(@"Cleaning up current Ping operation");
     if (self.currentPingOperation
         && (![self.currentPingOperation.responses count]
             || ![self.currentPingOperation.saved boolValue])) {
             [self.context deleteObject:self.currentPingOperation];
             self.currentPingOperation = nil;
         }
+}
+
+- (void)cleanupCurrentTraceOperation
+{
+    NSLog(@"Cleaning up current Trace operation");
     if (self.currentTraceOperation
         && (![self.currentTraceOperation.pings count]
             || ![self.currentTraceOperation.saved boolValue])) {

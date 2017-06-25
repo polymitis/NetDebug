@@ -156,6 +156,12 @@ typedef NS_ENUM(NSUInteger, DataModelOperationType) {
 /** The current trace operation. */
 @property (strong, nonatomic, readonly) TraceOperation *currentTraceOperation;
 
+/** All trace operations. */
+@property (strong, nonatomic) NSArray *traceOperations;
+
+/** All ping operations. */
+@property (strong, nonatomic) NSArray *pingOperations;
+
 
 /** Perform DNS lookup of a specified FQDN.
  
