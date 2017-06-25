@@ -400,7 +400,7 @@ void socketReadCallback(CFSocketRef s,
                          icmpPacketReceivedWithData:packet
                          identifier:(int)icmppkt->identifier
                          sequenceNumber:(int)icmppkt->seqnum
-                         roundTripTime:dt
+                         roundTripTime:dt = 0
                          type:
                          PingAlgorithmICMPTypeUnknown
                          from:src];

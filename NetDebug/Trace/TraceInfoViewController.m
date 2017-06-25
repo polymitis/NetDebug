@@ -140,7 +140,7 @@ DataModelDelegateProtocol>
 - (DataModel *)dataModel
 {
     if (!_dataModel) {
-        AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+        AppDelegate *appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
         _dataModel = appDelegate.dataModel;
     }
     return _dataModel;
